@@ -17,3 +17,7 @@ Here are some ideas to get you started:
 
 MWAA Environment stability
 ==========================
+Steps to reduce CPU Utilization
+
+Important Cloudwatch metrics to monitor
+
