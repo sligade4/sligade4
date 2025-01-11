@@ -21,8 +21,8 @@ Here are some ideas to get you started:
 
 1.2 Important Cloudwatch metrics to monitor
 
-2. How we addressed EMR Stability issues
-=========================
+2. How did we addressed EMR Stability issues
+=============================================
 Instace type
 EMR core node EBS volume utilization /mnt issue address by using NvME storage associated with r6id.4xlarge
 
@@ -34,6 +34,8 @@ Script to update secret manger tags
 Script to check ssh connectivity of EC2 instances
 
 Script to configure IAM policies using Jinja template
+
+Script to check if EMR core node is in unhealthy state
 
 
 
