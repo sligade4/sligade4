@@ -15,9 +15,26 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-MWAA Environment stability
-==========================
-Steps to reduce CPU Utilization
+1. How did we address MWAA stability issues
+==========================================
+1.1 Steps to reduce CPU Utilization
 
-Important Cloudwatch metrics to monitor
+1.2 Important Cloudwatch metrics to monitor
+
+2. How we addressed EMR Stability issues
+=========================
+Instace type
+EMR core node EBS volume utilization /mnt issue address by using NvME storage associated with r6id.4xlarge
+
+Script to check EMR Master node safemode status ON/OFF
+
+
+Script to update secret manger tags 
+
+Script to check ssh connectivity of EC2 instances
+
+Script to configure IAM policies using Jinja template
+
+
+
 
